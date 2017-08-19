@@ -1,0 +1,13 @@
+{
+  "name": "docker-remote-cmd-nodejs",
+  "version": "1.0.0",
+  "description": "Docker container of a nodeJS server that executes remote commands on the server directly from the url suffix",
+  "author": "Peter Schlesinger <dev@espace.com.au>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
